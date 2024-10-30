@@ -1,4 +1,4 @@
-require './string_calculator'
+require "spec_helper"
 
 RSpec.describe StringCalculator do
   let(:calculator) { StringCalculator.new }
